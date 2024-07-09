@@ -1,0 +1,128 @@
+body {
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* ul {
+    background-color: brown;
+} */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
+    background-color: transparent;
+    
+
+}
+.logo {
+    padding: 0 5rem;
+    color:#5993cd;
+    margin:2rem 0;
+    text-align: center;
+    background-image: linear-gradient(45deg #0ba1e6 #a4e65e);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.logo .logo-heading {
+    color: #1a8cf0b7;
+    margin:2rem 0;
+    text-align:center;
+
+}
+.menu {
+    padding: 0 5rem;
+}
+.menu .menu-list {
+    display: flex;
+    list-style: none;
+}
+.menu .menu-list .menu-list-items {
+    padding: 0.5rem 1rem;
+}
+.hero {
+    /* background-image: url("images/img1.jpg"); */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 4.8 rem 0;
+}  
+.hero .intro {
+    text-align:center;
+    margin: 0 5rem;
+} 
+.hero intro-buttons {
+    margin:2rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, #363D73, #2794B3);
+    justify-content: space-between;
+    width: 100%;
+}  
+.about .about-text {
+    width: 450px;
+    color: #fff;
+    padding: 5rem 1rem 5rem 5rem;
+} 
+.about .test-image {
+    height: 400px;
+    width: 450px;
+    padding: 5rem 5rem 5rem 1rem;
+}
+.contactme  {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(35deg, #5993cd, #b3df89);
+    align-items: center;
+    justify-content: space-between;
+}
+.contactme .contact-text {
+    width:450px;
+    color:#e97f22;
+    padding: 5rem 2rem 5rem 5rem;
+    
+    
+}
+.greet-heading {
+    margin: 2rem 0;
+    display:flex;
+    
+}
+.my-heading .heading-text {
+    display: flex;
+    align-items: center;
+    color: #b907e1;
+    align-items: center;
+    justify-content:start;
+    width: 350%;
+    padding: 0 2 rem;
+
+}
+.contactme-form {
+    align-items: center;
+    color: black;
+    margin: 10px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

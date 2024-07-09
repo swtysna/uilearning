@@ -1,0 +1,107 @@
+body {
+    border: 2px solid rgb(208, 23, 23);
+    
+}
+
+header {
+    border: 1px dotted black;
+    margin: 10px;
+    height: 150px;
+}
+
+section {
+    border: 1px dotted black;
+    height: 300px;
+    margin: 20px;
+}
+section.abt-self {
+        
+    height: 300px;
+    
+}
+
+footer {
+    border: 1px dotted black;
+    margin: 10px;
+    
+}
+
+
+    .myself {
+        border: 1px double purple;
+        width: 40%;
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+        text-align: left;
+        background-color:#225f9c;
+        font-style: oblique ;
+    }
+    
+
+    .image {
+        border: 2px dotted yellow;
+        width: 30%;
+        margin: 10px;
+        padding: 10px;
+        display: block;
+        float: right;
+    
+    }
+    
+  
+
+    .work {    
+        border: 1px solid blue;
+        margin: 20px;
+        width: 20%;
+        padding: 10px;
+        height: 200px;
+        float: left;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
+        background-color: transparent;
+        height: 160px;
+    
+    }
+    
+ 
+
+    .menu {
+        padding: 0 5rem;
+    }
+    .menu .menu-list {
+        display: flex;
+        list-style: none;
+    }
+    .menu .menu-list .menu-list-items {
+        padding: 0.5rem 1rem;
+    }
+
+    .menu {
+        padding: 0 5rem;
+    }
+    .menu .menu-list {
+        display: flex;
+        list-style: none;
+    }
+    .menu .menu-list .menu-list-items {
+        padding: 0.5rem 1rem;
+    }
+
+    .menu-list {
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(90deg, #1a455e, #102f5e, #1d478f);
+        height: 100px;
+    }

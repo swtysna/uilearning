@@ -1,0 +1,76 @@
+body {
+    border: 2px solid green;
+}
+.logo {
+    color:#bed8f3;
+    text-align: center;
+    background-image:-o-linear-gradient(white);
+    display: flex;
+    width: 100%;
+    border: 1px solid black ;
+}
+
+
+.logo-heading {
+    border: 1px solid red;
+    font-style:inherit;
+    color:blue
+    
+
+}
+
+
+.menu {
+    border: 1px;
+}
+.menu .menu-list {
+    
+    display: flex;
+
+}
+.menu .menu-list .menu-list-items {
+    padding: 0.5rem 1rem;
+}
+
+.menu {
+    padding: 0 5rem;
+}
+.menu .menu-list {
+    display: flex;
+    
+}
+.menu .menu-list .menu-list-items {
+    padding: 0.5rem 1rem;
+
+}
+.table {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    height: 300px;
+    padding: 10;
+}
+    
+td, th {
+    border: 1px solid #6f6c6c;
+    text-align: right;
+    padding: 8px;
+    
+}  
+
+
+
+
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+
+
+}
+
+
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Portfolio!
+        </title> 
+        <style>
+            body {
+                /* background-color: aqua; */
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+            /* ul {
+                background-color: brown;
+            } */
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
+                background-color: transparent;
+
+
+            }
+            .logo {
+                padding: 0 5rem;
+
+            }
+            .logo .logo-heading {
+                color: #fff;
+            }
+            .menu {
+                padding: 0 5rem;
+            }
+            .menu .menu-list {
+                display: flex;
+                list-style: none;
+            }
+            .menu .menu-list .menu-list-items {
+                padding: 0.5rem 1rem;
+            }
+            .hero {
+                /* background-image: url("images/img1.jpg"); */
+                background-size: 100% 100%;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin: 4.8 rem 0;
+            }  
+            .hero .intro {
+                text-align:center;
+                margin: 0 5rem;
+            } 
+            .hero intro-buttons {
+                margin:2rem 0 ;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .about {
+                display: flex;
+                align-items: center;
+                background-image: linear-gradient(45deg, #363D73, #2794B3);
+                justify-content: space-between;
+                width: 100%;
+            }  
+            .about .about-text {
+                width: 450px;
+                color: #fff;
+                padding: 5rem 1rem 5rem 5rem;
+            } 
+            .about .test-image {
+                height: 400px;
+                width: 450px;
+                padding: 5rem 5rem 5rem 1rem;
+            }
+        </style>  
+    </head>
+    <body>
+
+        <!-- <div>
+            My Portfolio!
+        </div> -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">
+                    <h2 class="logo-heading">Sonali Barnwal</h2>
+
+
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-items">
+                            <a class="links" href="#home">
+                                Home
+                                
+                            </a>
+                            </li>
+                            <li class="menu-list-items">
+                                <a class="links" href="#portfolio">
+                                    Portfolio
+
+                                </a>
+                            </li>
+                            <li class="menu-list-items">
+                                <a class="links" href="#about">
+                                    About Me
+
+                                </a>
+                            </li>
+                            <li class="menu-list-items">
+                                <a class="links" href="#contact">
+                                    Contact Me
+                                </a>
+                            </li>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <section id="home" class="hero">
+            <div class="intro">
+                <div class="heading">
+                    <h3 class="greet-heading">Hello, I'm</h3>
+                    <h1 class="my-heading">Sonali Barnwal</h1>
+                    <h4 class="sub-heading">
+                        A UX/UI designer with 1 year of experience.
+                    </h4>
+                    <div class="intro-buttons">
+                        <button class="btn common-btn">Hire Me</button>
+                        <button class="btn ghost-btn">Get Resume</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+             <div class="about-text">
+                <h1 class="my-heading">About-Me</h1>
+                <p class="lead-para">
+                    Hello I am Sonali Barnwal. I am an art and craft teacher
+                    I love to do many kinds of arts like drawing, painting, 
+                    sketching, shading, Mandala, lippan, Murral, Lamasa, 
+                    sculpture art, oil pastle, crayons. I love to organize
+                    events and functions. I design cloths also.
+                </p>
+                <p>
+                    I am also learning ui/ux course. I am so excited to
+                     know more about it.
+                </p>
+            </div>
+            <div class="test-image">
+                <img src="images/img1.jpg" alt="About-Me image" width="500" height="450" />
+
+            </div>
+        </section>
+
+    </body>
+</html>
