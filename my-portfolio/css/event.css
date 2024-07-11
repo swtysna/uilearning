@@ -1,0 +1,211 @@
+body{
+    border: 2px dotted black;
+    height: 1500PX;
+    
+
+}
+header {
+
+    border: 2px dotted black;
+    height: 60px;
+    display: flex;
+    width: 95%;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    color: white;
+    box-sizing: inherit;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+}
+.trending {
+    border: 2px solid black;
+    height: 80px;
+    margin: 10px;
+    display: inline-flex;
+    width: 95%;
+    
+    border: 2px solid black;
+    height: 150px;
+    margin: 10px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 28PX;
+    text-transform: uppercase;
+    position: relative;
+    left: 30px;
+    
+}
+.party {
+    display: block;
+    border: 2px solid black;
+    height: 400px;
+    width: 45%;
+    margin: 10px;
+    float: left;
+}
+.marathon {
+    display: block;
+    border: 2px solid black;
+    height: 400px;
+    width: 45%;
+    margin: 10px;
+    float: left;
+}
+
+.exp {
+    display: inline-flex;
+    width: 95%;
+    
+    border: 2px solid black;
+    height: 150px;
+    margin: 10px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 28PX;
+    text-transform: uppercase;
+   
+}
+
+.course {
+    border: 2px solid black;
+    height: 160px;
+    width: 15%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    
+}
+.music {
+    border: 2px solid black;
+    height: 160px;
+    width: 15%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    
+}
+
+.theater {
+    border: 2px solid black;
+    height: 160px;
+    width: 15%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    
+}
+
+.workshops {
+    border: 2px solid black;
+    height: 160px;
+    width: 15%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    
+}
+
+.pocket {
+    border: 2px solid black;
+    height: 160px;
+    width: 15%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    
+}
+
+.comedy {
+    border: 2px solid black;
+    height: 160px;
+    width: 15%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    
+}
+
+.f-event {
+    display: inline-flex;
+    width: 95%;
+    
+    border: 2px solid black;
+    height: 150px;
+    margin: 10px;
+    line-height: 100%;
+    font-size: 700;
+    font-family:'Times New Roman', Times, serif ;
+    text-transform: uppercase;
+   
+    
+
+}
+.art {
+    border: 2px solid black;
+    height: 250px;
+    width: 20%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.HEALTH {
+    border: 2px solid black;
+    height: 250px;
+    width: 20%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+
+}
+
+.COURSES {
+    border: 2px solid black;
+    height: 250px;
+    width: 20%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.WORKSHOP {
+    border: 2px solid black;
+    height: 250px;
+    width: 20%;
+    border-radius: 6px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.exp_wrapper {
+    border: 2px solid red;
+    height: 600px;
+
+}
+.events_wrapper {
+    border: 2px solid greenyellow;
+    height: 400px;
+}
+.list-items {
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 28px;
+    margin: 10px;
+    padding: 5px;
+    
+
+}
