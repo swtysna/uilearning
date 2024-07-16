@@ -1,6 +1,7 @@
 body{
     border: 2px dotted black;
-    height: 1500PX;
+    height: 2000PX;
+    width: 100%;
     
 
 }
@@ -9,38 +10,40 @@ header {
     border: 2px dotted black;
     height: 60px;
     display: flex;
-    width: 95%;
+    width: 99%;
     background-color: black;
-    margin: 10px;
-    padding: 10px;
-    justify-content: space-between;
     color: white;
+    
+    position: fixed;
+    justify-content: space-between;
+    
     box-sizing: inherit;
     text-align: center;
     font-size: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 120;
+    
 
 
 }
 .trending {
-    border: 2px solid black;
-    height: 80px;
-    margin: 10px;
-    display: inline-flex;
-    width: 95%;
-    
-    border: 2px solid black;
-    height: 150px;
-    margin: 10px;
-    line-height: 100%;
-    font-weight: 700;
-    font-family:'Times New Roman', Times, serif ;
-    font-size: 28PX;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-transform: uppercase;
-    position: relative;
-    left: 30px;
+    margin: 40px;
+    padding: 20px;
     
+    font-family: 'korolev-condensed';
+    font-size: 28px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    display: flex;
+    height: 50px;
+    border: 2px solid yellow;
 }
+    
+
 .party {
     display: block;
     border: 2px solid black;
@@ -61,11 +64,13 @@ header {
 .exp {
     display: inline-flex;
     width: 95%;
+    height: ;
+
     
     border: 2px solid black;
-    height: 150px;
+    height: 50px;
     margin: 10px;
-    line-height: 100%;
+    
     font-weight: 700;
     font-family:'Times New Roman', Times, serif ;
     font-size: 28PX;
@@ -135,12 +140,11 @@ header {
 .f-event {
     display: inline-flex;
     width: 95%;
-    
     border: 2px solid black;
-    height: 150px;
+    height: 50px;
     margin: 10px;
     line-height: 100%;
-    font-size: 700;
+    font-size:large;
     font-family:'Times New Roman', Times, serif ;
     text-transform: uppercase;
    
@@ -167,6 +171,7 @@ header {
     margin: 5px;
     padding: 5px;
     
+    
 
 }
 
@@ -179,6 +184,7 @@ header {
     margin: 5px;
     padding: 5px;
     
+    
 }
 .WORKSHOP {
     border: 2px solid black;
@@ -189,23 +195,93 @@ header {
     margin: 5px;
     padding: 5px;
     
+    
 }
 
 .exp_wrapper {
     border: 2px solid red;
-    height: 600px;
+    height: 250px;
 
 }
 .events_wrapper {
     border: 2px solid greenyellow;
-    height: 400px;
+    height: 600px;
 }
 .list-items {
-    border: 1px solid white;
-    height: 40px;
-    border-radius: 28px;
-    margin: 10px;
-    padding: 5px;
-    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 38px;
+    border-radius: 136px;
+    font-weight: 600;
+    padding: 7px 12px;
+    line-height: 150%;
+    font-size: 22px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    width: max-content;
+    box-sizing: inherit;
 
 }
+
+.f_wrapper {
+    border: 2px solid blue;
+    height: 450px;
+
+}
+.jodhpur-list-items {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 136px;
+    height: 38px;
+    margin: 0 15px;
+    background: #102842;
+    font-size: 22px;
+    text-align: center;
+    width: max-content;
+    padding: 7px 12px;
+    font-weight: 600;
+    
+    box-sizing: inherit;
+    text-transform: Capitalize;
+    cursor: pointer;
+    border: 1px solid #31c0f0;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+}
+a:hover {
+    
+    background: #102842;
+    border: 1px solid rgb(58, 179, 244);
+    border-radius: 136px;
+    background-color: yellow;
+}
+.hire list-items:hover {
+    background-color: greenyellow;
+}
+.jodhpur-list-items:hover {
+    background-color: rgba(255, 202, 29, 0.992);
+}
+.f-event:hover {
+    background-color: rgb(223, 245, 202);
+}
+.trending:hover {
+    background-color: dimgrey;
+}
+.exp:hover {
+    background-color: burlywood;
+}
+.trending .marathon .event-tittle-desktop {
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 29px;
+    letter-spacing: normal;
+    color: rgb(13, 15, 19);
+    padding-right: 12px;
+    word-break: break-word;
+}
+
