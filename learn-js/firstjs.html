@@ -44,6 +44,89 @@ hello how are you?
 
 
   </div>
+
+  
+  
+  <div class="subtract_wrap" style="margin: 20px;">
+    <input type="number" id="sub1">
+    <span>-</span>
+    <input type="number" id="sub2">
+
+    
+    
+    <span>=</span>
+    <div class="result" id="result"></div>
+    
+    <button class="sub" id="sub">Sub</button>
+
+
+
+  </div>
+
+  
+  
+  
+  <div class="multiply_wrap" style="margin: 20px;">
+    <input type="number" id="first">
+
+
+    <span>*</span>
+    <input type="number" id="second">
+
+    
+    
+    <span>=</span>
+    <div class="total" id="multi_total"></div>
+    
+    <button class="multiply" id="multiply">Mul</button>
+
+
+
+  </div>
+ 
+  <div class="div_wrap" style="margin: 20px;">
+    <input type="number" id="one">
+    <span>/</span>
+    <input type="number" id="two">
+
+    
+    
+    <span>=</span>
+
+    <div class="total" id="div_total"></div>
+    
+    <button class="divide" id="divide">Div</button>
+
+
+
+  </div>
+ 
+ 
+  <div class="number_wrap" style="margin: 20px;">
+    <input type="number" id="odd">
+
+    <button class="divide" id="number">odd</button>
+
+    <span>+</span>
+
+    <input type="number" id="even">
+
+    <button class="divide" id="number">even</button>
+
+    
+    
+    <span>=</span>
+
+    <div class="total" id="total"></div>
+    
+    <button class="divide" id="number">result</button>
+
+
+
+  </div>
+ 
+ 
+ 
  
  <script>
 //     console.log("get");
@@ -75,13 +158,18 @@ hello how are you?
   <script src="myscript.js"></script>
   <p id="demo"></p>
   <script>
-    var x = 7;
-    var y = 8;
-    var z = x + y;
+    let xy = 7;
+    let y = 8;
+    let z = xy + y;
     document.getElementById("demo").innerHTML =
     "The value of z is: " + z;
     
   </script>  
+  <script src="variable.js"></script>
+
+  <script src="arithmatic.js"></script>
+
+  <script src="functioncheck.js"></script>
 </body>
   
 </html>

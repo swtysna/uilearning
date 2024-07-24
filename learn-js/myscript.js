@@ -42,7 +42,7 @@ function sum() {
 
     console.log(a);
     console.log(b);
-// parseint use for coverting sring value to integer
+// parseint use for con verting string value to integer
     var c = parseInt(a) + parseInt(b);
 
     console.log(c);
@@ -58,6 +58,92 @@ document.getElementById("sum").onclick = sum;
 // TODO sum subtraction multiply divide
 // check odd even input no.
 
+
+function subtract() {
+    // get first no. and store into variable a
+    let x = document.getElementById("sub1").value;
+
+    let y = document.getElementById("sub2").value;
+
+
+
+    console.log(x);
+    console.log(y);
+ // parseint use for coverting string value to integer   
+    let z = (x) - (y);
+
+    console.log(z);
+
+
+    document.getElementById("result").innerHTML = z;
+
+}
+
+document.getElementById("sub").onclick = subtract;
+
+
+
+function mul() {
+    // get first no. and store into variable a
+    var a = document.getElementById("first").value;
+
+    var b = document.getElementById("second").value;
+
+    console.log(a);
+    console.log(b);
+ // parseint use for coverting string value to integer   
+    var c = parseInt(a) * parseInt(b);
+
+    console.log(c);
+
+
+    document.getElementById("multi_total").innerHTML = c;
+
+}
+
+document.getElementById("multiply").onclick = mul;
+
+function divide() {
+    // get first no. and store into variable a
+    var a = document.getElementById("one").value;
+
+    var b = document.getElementById("two").value;
+
+    console.log(a);
+    console.log(b);
+ // parseint use for coverting string value to integer   
+    var c = parseInt(a) / parseInt(b);
+
+    console.log(c);
+
+
+    document.getElementById("div_total").innerHTML = c;
+
+}
+
+document.getElementById("divide").onclick = divide;
+
+
+
+function checkNumber() {
+    // get first no. and store into variable a
+    var a = document.getElementById(even).value;
+
+    var b = document.getElementById(odd).value;
+
+    console.log(a);
+    console.log(b);
+
+    var c = (a) +  (b);
+
+    console.log(c);
+
+ 
+ document.getElementById("result").innerHTML = c;   
+
+}
+
+document.getElementById("number").onclick = checkNumber;
 
 
 
