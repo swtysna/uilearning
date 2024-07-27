@@ -236,12 +236,182 @@ function checkGreater(digit) {
    
   
   
+function findTheLargestNumber(a, b, c) {
+  console.log("first number = " + a + ", second number = " + b + ", third number = " + c + ",");
+  let d = 0;
+  //700, 250, 350
+  // 650, 1000, 200
+  // largest number between first 2 numbers and store the largest number in another variable say d
+ // 12 , 15 , 20
+  // 12>0 d = 12
+  // 700 > 0 : true
+  // 650 > 0 : true
+  if(a > d){ 
+    d = a; // d = 12 // d = 650 // d = 700
+  }// 15 > 12 d = 15
+  
+  
+  //250 > 700 : false
+  // 1000 > 650  :true
+  if (b > d){
+    d = b; // d = 15 // d = 1000 
+    
+    
+  }// 20 > 15 d = 20
+  
+  // 350>700 : false
+  // 200 > 1000 : false // it will go to the next
+  if (c > d){ 
+    
+    d = c; // d = 20 // 
+    
+  }
+   console.log("largest number = " + d);
+  return d;
+  
+  
+}
+
+  findTheLargestNumber(12, 15, 20); // function calling with corresponding values or  parameters.
+  
+  let z = findTheLargestNumber(100,200,500);
+
+   function findTheLargestNumber(a, b, c){
+     
+     return a * b * c;
+   }
+  
+    
+  findTheLargestNumber(700,250,350); 
+   findTheLargestNumber(650,1000,200);
+  
+  
+   function findSmallestNumber(x,y,z,u){
+    console.log("first number = "+ x + " second number = "+ y + " third number = "+ z  + " fourth number = " + u );
+    
+    let w = x; 
+    
+    console.log(w);
+    
+    if(y < w){
+      //  : true w = y = 56
+       
+      
+      
+      // 25 < 175 : true w = y = 25
+      
+      w = y;
+      
+      
+     
+      
+      
+    }
+    console.log(w);
+     
+    if(z < w){
+      // true : w = z = 
+      // 2 < 20 : true w = z = 
+      // w = z : true w = z = 25
+      // 
+      w = z;
+    }
+    console.log(w);
+    
+    if(u < w){
+      
+      // u = w : false w = z 
+      // true : w = u
+       
+     w = u;
+      
+    }
+    
+    console.log("smallest number = " + w); 
+    
+  }
+  //    findSmallestNumber(90,56,28,43);
+  
+  //   findSmallestNumber(175,25,45,105);
+  //    findSmallestNumber(20,12,2,3);
+  //      findSmallestNumber(1,5,2,43);
+  
+  
+  function findOddNumber(a,b,c){
+    console.log("first number = " + a + " second number = " + b + " third number = " + c );
+    let oddFound = false;
+                
+     if(a % 2 !== 0){
+      
+       oddFound = true;
+      console.log(" odd number = " + a);
+    }
+    
+    
+    if(b % 2 !== 0){
+      
+        oddFound = true;  
+     
+       console.log(" odd number = " +b);
+    }
+   
+    
+    if(c % 2 !== 0){
+      
+      oddFound = true;
+       console.log(" odd number = " +c);
+  
+    }
+    
+    if(!oddFound) {
+      console.log(" there is no odd number ");
+    }
+  }
+    findOddNumber(25,40,50);
+  //   findOddNumber(85,80,97);
+  //   findOddNumber(69,27,89);
+    findOddNumber(100,20,60);
+  
+  
+  
+  const number = prompt("Enter a number: ");
+  
+  console.log("input number = " + number);
+  
+  if(number % 2 !== 0){
+    
+    console.log("hahaha you have entered an odd number ");
+  }
+  else{
+    console.log("hahaha you have entered an even number");
+  }
   
   
   
   
   
   
+  
+  
+  
+  
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   
