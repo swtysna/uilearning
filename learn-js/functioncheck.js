@@ -388,6 +388,33 @@ function findTheLargestNumber(a, b, c) {
   
   
   
+  function findNumberAndCompare(num){
+    console.log("input number = " + num);
+    
+    if(num < 555 && num % 3 === 0){
+      console.log("input number " + num + " is less than " + 555 + " and divisible by 3 "); 
+     
+    }
+    else if(num > 555 && num % 3 !== 0 ) {
+       console.log("input number " + num + " is greater than " + 555 + " and not divisible by 3 "); 
+     
+    }
+    else if (num <= 555 && num % 3 === 0){
+      console.log("input number " + num + " is less than and equal to " + 555 + " and divisible by 3 "); 
+     
+      
+    }
+    else if (num >= 555 && num % 3 === 0){
+      console.log("input number " + num + " is greater than " + 555 + " and not divisible by 3 "); 
+     
+    }
+    
+    
+  }
+    findNumberAndCompare(554);
+    findNumberAndCompare(556);
+    findNumberAndCompare(288);
+  
   
   
   
