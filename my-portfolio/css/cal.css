@@ -16,7 +16,7 @@
 
 }
 
-.button {
+.operator {
     padding: 20px;
     margin: 3px 3px;
     border: 2px solid red;
@@ -24,7 +24,13 @@
     
 }
 
-
+button {
+    padding: 20px;
+    margin: 3px 3px;
+    border: 2px solid red;
+    border-radius: 9px;
+    
+}
     
 
 .row input {

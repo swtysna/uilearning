@@ -1,0 +1,252 @@
+body {
+    border: 2px dotted black;
+    margin: 1px;
+
+    font-family: Verdana, arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    width: 3132px;
+
+
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+header {
+
+
+    /* height: 100px; */
+    background-color: rgb(236, 231, 231);
+    margin: 1px;
+}
+
+.header-top {
+    height: 116px;
+    background-color: rgb(242, 245, 247);
+    margin: 1px;
+    width: 3132px;
+}
+
+.header-top .left-sec .box {
+    border: 1px dotted black;
+    margin: 5px;
+    align-items: center;
+    width: 15%;
+    float: left;
+}
+
+.header-top .right-sec .box {
+    border: 1px dotted black;
+    align-items: center;
+    width: 3%;
+    float: right;
+    margin: 5px;
+}
+
+.header-logo {
+    height: 334px;
+    background-color: rgb(241, 245, 245);
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Trirong", serif;
+    margin: 1px;
+    width: 3132px;
+}
+
+.header-nav {
+    background-color: rgb(247, 249, 245);
+    height: 137px;
+    margin: 1px;
+    width: 3132px;
+
+
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 1px;
+    float: left;
+    word-spacing: 5px;
+
+}
+
+.header-nav ul li {
+    display: inline-block;
+    word-spacing: 5px;
+
+}
+
+.header-nav ul li a {
+    color: black;
+    font-size: 1.01rem;
+    word-spacing: 5px;
+    margin-top: 8px;
+
+}
+
+hr {
+    background: black;
+    border: 0;
+    height: 2px;
+
+}
+
+.main  {
+    border: 1px dotted black;
+    margin: 5px;
+    background-color: white;
+    height: 2500px;
+
+}
+.main div {
+    border: 1px dotted black;
+    margin: 5px;
+    height: 4500px;
+}
+
+
+
+
+.header-top.box {
+    border: 1px dotted black;
+    margin: 10px;
+    align-items: center;
+    justify-items: flex-start;
+    width: 10%;
+    float: inline-end;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+
+    float: right;
+    
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+    justify-content: space-between;
+}
+
+ul li a:hover {
+    word-spacing: 10px;
+    color: red;
+    font-size: 1.01rem;
+}
+
+.main div .right-side {
+    border: 1px dotted black;
+    margin: 60px;
+    height: 450px;
+    width: 1721px;
+    height: 945px;
+
+}
+
+.main div .right-side .text {
+    border: 1px dotted;
+    margin: 10px;
+    height: 245px;
+    width: 718px;
+    position: relative;
+    bottom: 122px;
+    font-family: Impact;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+
+}
+.main div .left-side {
+    border: 1px dotted black;
+    margin: 60px 300px;
+    height: 2400px;
+    width: 742px;
+    float: right;
+    position: sticky;
+    bottom: 900px;
+    
+}
+
+.main div .left-side .img-box {
+    border: 1px dotted black;
+    height: 689px;
+    width: 730px;
+
+}
+.main div .left-side .text {
+    border: 1px dotted;
+    height: 245px;
+    width: 718px;
+}
+.main .cards{
+    border: 1px dotted black;
+    margin: 60px;
+    height: 900px;
+    width: 1815px;
+}
+.main .cards .cards-right {
+    border: 1px dotted black;
+    margin: 10px;
+    height: 873px;
+    width: 844px;
+
+}
+.main .cards .cards-right .small-card {
+    border: 1px dotted black;
+    height: 212px;
+    width: 828px;
+}
+.main .cards .cards-right .small-card .img {
+    border: 1px dotted black;
+    height: 198px;
+    width: 352px;
+    float: right;
+}
+
+.main .cards .cards-left {
+    border: 1px dotted black;
+    margin: 10px;
+    height: 873px;
+    width: 844px;
+    float: right;
+    position: sticky;
+    bottom: 500px;
+    clear: inline-end;
+    
+}
+
+.main .cards .cards-left .small-card {
+    border: 1px dotted black;
+    height: 212px;
+    width: 828px;
+
+}
+
+.main .cards .cards-left .small-card .img {
+    border: 1px dotted black;
+    height: 198px;
+    width: 352px;
+    float: right;
+}
+footer {
+    border: 1px dotted black;
+    margin: 5px;
+    background-color: rgb(249, 249, 248);
+    height: 140px;
+    margin: 10px;
+}

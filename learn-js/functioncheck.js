@@ -610,7 +610,7 @@ function findMatchalbleString(str){
   
   function checkEitherThan(digit) {
     console.log("input number = " + digit);
-     input number is either greater than 600 OR less than 700.
+    //  input number is either greater than 600 OR less than 700.
      
     650 : true
     750 : false
@@ -661,35 +661,36 @@ function findTheLargestNumber(a, b, c) {
  findTheLargestNumber(20,15,40);
 findTheLargestNumber(90,45,63);
 
+// 10, 12, 8, 14
 function findSmallestNumber(f,g,h,i){
     console.log("first number = "+ f + " second number = "+ g + " third number = "+ h  + " fourth number = " +i );
     
-    let j = f; 
+    let j = f; // f = 10
     
-    console.log(j);
+    console.log(j); // 10 
     
-    if(g < j){
+    if(g < j){ // 12 < 10
 
       // false 
       j = g; // j = f = 45
      
     }
-    console.log(j);
+    console.log(j); //10
      
-    if(h < j){
-     // false
-      j = h;
+    if(h < j){ // 8 < 10
+     // false // true
+      j = h; // j = 8
     }
-    console.log(j);
+    console.log(j); // 8
     
-    if(i < j){
+    if(i < j){ //14 < 8
        // false
-     j = i;
+     j = i; // 
       
     }
     
-    console.log("smallest number = " + j);
-    
+    console.log("smallest number = " + j); // 8
+    return j;
   }
   findSmallestNumber(45,50,60,75);
 
@@ -724,7 +725,7 @@ function findOddNumber(x,y,z){
     console.log(" there is no odd number ");
   
   }
-  
+}
   // check input number is equal to 8 and less than 12.
 
 function findNumberEqualAndLessThan(num) {
@@ -805,6 +806,7 @@ function divisibleBy10Or5(digit){
     
     
   }
+  else {
    // odd case
   if(digit % 5 === 0){
     
@@ -813,6 +815,7 @@ function divisibleBy10Or5(digit){
  else {
     console.log("input number " + digit + " is not divisible by 5 " );
  }
+}
   
 }
 
@@ -826,28 +829,3 @@ function addTwoNumber(g,h){
   return (g+h);
 }
 console.log(addTwoNumber(12,16));
-
-   
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  
-  
-  
-  
-  

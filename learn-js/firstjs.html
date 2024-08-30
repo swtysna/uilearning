@@ -105,19 +105,19 @@ hello how are you?
   <div class="number_wrap" style="margin: 20px;">
     <input type="number" id="odd">
 
-    <button class="divide" id="number">odd</button>
+    
 
     <span>+</span>
 
     <input type="number" id="even">
 
-    <button class="divide" id="number">even</button>
+    
 
     
     
     <span>=</span>
 
-    <div class="total" id="total"></div>
+    
     
     <button class="divide" id="number">result</button>
 
@@ -170,6 +170,39 @@ hello how are you?
   <script src="arithmatic.js"></script>
 
   <script src="functioncheck.js"></script>
+
+
+  
+  <script>
+  function Calculator(num1, num2, operator){
+ 
+    let = result;
+    
+    switch(operator) {
+         case '+':
+             result = number1 + number2;
+         break;
+   
+         case '-':
+            result = number1 - number2;
+         break;
+   
+         case '*':
+            result = number1 * number2;
+         break;
+   
+         case '/':
+         result = number1 / number2;
+         break;
+   
+         default:
+         console.log('Invalid operator');
+         break;
+       }
+   
+   }
+  </script>
+   
 </body>
   
 </html>

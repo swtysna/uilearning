@@ -103,23 +103,6 @@ function mul() {
 
 document.getElementById("multiply").onclick = mul;
 
-function divide() {
-    // get first no. and store into variable a
-    var a = document.getElementById("one").value;
-
-    var b = document.getElementById("two").value;
-
-    console.log(a);
-    console.log(b);
- // parseint use for coverting string value to integer   
-    var c = parseInt(a) / parseInt(b);
-
-    console.log(c);
-
-
-    document.getElementById("div_total").innerHTML = c;
-
-}
 
 document.getElementById("divide").onclick = divide;
 
@@ -134,7 +117,7 @@ function checkNumber() {
     console.log(a);
     console.log(b);
 
-    var c = (a) +  (b);
+    var c = parseInt(a) +  parseInt(b);
 
     console.log(c);
 
