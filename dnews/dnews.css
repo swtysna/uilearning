@@ -46,7 +46,7 @@ header {
 }
 
 .header-logo {
-    height: 334px;
+    height: 84px;
     background-color: rgb(241, 245, 245);
     font-family: Verdana, Tahoma, sans-serif;
     align-items: center;
@@ -59,7 +59,7 @@ header {
 
 .header-nav {
     background-color: rgb(247, 249, 245);
-    height: 137px;
+    height: 50px;
     margin: 1px;
     width: 1366px;
 
@@ -99,15 +99,11 @@ hr {
     border: 1px dotted black;
     margin: 5px;
     background-color: white;
-    height: 1000px;
-    width: 1366px;
+    height: 1100px;
+    width: 1350px;
 
 }
-.main div {
-    border: 1px dotted black;
-    margin: 5px;
-    height: 600px;
-}
+
 
 
 
@@ -149,81 +145,99 @@ ul li a:hover {
     color: red;
     font-size: 1.01rem;
 }
-
 .main div .right-side {
     border: 1px dotted black;
-    margin: 60px;
-    
+    margin: 30px;
     width: 800px;
     height: 500px;
+}
 
+.main div .right-side img {
+    height: 500px;
+    
 }
 
 .main div .right-side .text {
     border: 1px dotted;
-    margin: 10px;
+    
     height: 100px;
     width: 800px;
-    position: relative;
-    bottom: 122px;
+    position: absolute;
+    bottom: -380px;
     font-family: Impact;
     font-size: 45px;
     color: white;
     text-align: center;
+    margin: 30px;
 
 }
 .main div .left-side {
     border: 1px dotted black;
-    margin: 60px 300px;
-    height: 900px;
+    height: 1000px;
     width: 400px;
+    margin: 20px;
     float: right;
     position: sticky;
-    bottom: 900px;
-    
+    bottom: 500px;
+    clear: inline-end;
 }
 
 .main div .left-side .img-box {
     border: 1px dotted black;
-    height: 300px;
-    width: 350px;
+    height: 302px;
+    width: 388px;
+    margin: 5px;
 
 }
 .main div .left-side .text {
     border: 1px dotted;
-    height: 100px;
-    width: 350px;
+    height: 73px;
+    width: 388px;
+    position: absolute;
+    bottom: 500px;
+    
 }
 .main .cards{
     border: 1px dotted black;
-    margin: 60px;
-    height: 600px;
+    margin: 30px;
+    height: 500px;
     width: 800px;
 }
 .main .cards .cards-right {
     border: 1px dotted black;
     margin: 10px;
-    height: 580px;
-    width: 350px;
+    height: 457px;
+    width: 341px;
+    
 
 }
 .main .cards .cards-right .small-card {
     border: 1px dotted black;
-    height: 150px;
-    width: 140px;
+    height: 125px;
+    width: 341px;
+}
+.main .cards .cards-right .small-card .text {
+    border: 1px dotted black;
+    height: 90px;
+    width: 129px;
+    
+    
 }
 .main .cards .cards-right .small-card .img {
     border: 1px dotted black;
-    height: 130px;
-    width: 150px;
+    height: 90px;
+    width: 129px;
     float: right;
+    margin: 10px;
+    
+    
 }
 
 .main .cards .cards-left {
     border: 1px dotted black;
     margin: 10px;
-    height: 580px;
-    width: 350px;
+    height: 457px;
+    width: 341px;
     float: right;
     position: sticky;
     bottom: 500px;
@@ -233,16 +247,17 @@ ul li a:hover {
 
 .main .cards .cards-left .small-card {
     border: 1px dotted black;
-    height: 150px;
-    width: 140px;
+    height: 113px;
+    width: 341px;
 
 }
 
 .main .cards .cards-left .small-card .img {
     border: 1px dotted black;
-    height: 130px;
-    width: 150px;
+    height: 90px;
+    width: 129px;
     float: right;
+    margin: 10px;
 }
 footer {
     border: 1px dotted black;
