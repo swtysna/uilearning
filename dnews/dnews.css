@@ -116,13 +116,30 @@ hr {
 
 
 
-ul {
+/* #nav ul {
     display: flex;
     justify-content: center;
     float: right;
+} */
+#nav {
+    list-style: none inside;
+    text-align: center;
 }
-
-ul li {
+#nav li {
+    display: block;
+    position: relative;
+    float: left;
+    background: white;
+}
+#nav li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 200px;
+    line-height: 35px;
+    color: black;
+}
+#nav ul li {
     list-style: none;
     margin: 10px;
 
@@ -130,17 +147,26 @@ ul li {
     
 
 }
-
-ul li a {
-    text-decoration: none;
-    color: rgb(8, 7, 7);
-    justify-content: space-between;
+#nav li li a {
+    font-size: 80%;
 }
-
-ul li a:hover {
-    word-spacing: 10px;
-    color: red;
-    font-size: 1.01rem;
+#nav li:hover {
+    background: rgb(55, 210, 230)
+}
+#nav ul {
+    display: none;
+    padding: 0;
+    left: 0;
+    position: absolute;
+}
+#nav li:hover ul {
+    display: block;
+    
+}
+#nav li li:hover ul {
+    display: block;
+    margin-left: 200px;
+    margin-top: -35px;
 }
 
 .main div .right-side {
