@@ -154,7 +154,7 @@ hr {
     background: rgb(55, 210, 230)
 }
 #nav ul {
-    display: none;
+    display: block;
     padding: 0;
     left: 0;
     position: absolute;
