@@ -167,21 +167,38 @@ step:8 end
 
 
 
-// function arrshift(arr) {
-//     console.log("input array " + arr);
+/**
+ * @author: Sonali
+ * @description: function to test array shift on an input array. This function will accept one argument as an Array 
+ * and will return updated input array
+ * @param {Array} arr 
+ * @returns updated input array
+ */
+function arrshift(arr) {
+    // print which function calling, so that in console, you may identify this:
+    console.log("arrshift function calling....");
+
+    // print arguments, in their format as input argument is an Array. We may use comma to just print the variable value.
+    console.log("input array", arr);
     
+    // use Array shift method, to remove element from the 0th index of input Array
+    arr.shift(arr);
 
-
-// arr.shift(arr);
-// console.log(arr);
-
+    // print the updated array
+    console.log("Updated Array: ", arr);
     
-// }
-// let arr = ["salad", "fruit", "juice", "nuts"];
+    // return updated Array from this function
+    return arr;
+}
 
+// declare a variable arr1 of type array with String values as per the below
+let arr1 = ["salad", "fruit", "juice", "nuts"];
 
+// arrshift function call with arguments of arr1, save this function return value into a variable
+let updatedArr = arrshift(arr1);
 
-// arrshift(arr);
+console.log("Updated Array after using arrshift function: ", updatedArr);
+
 
 function arrunshift(arr,a) {
     console.log("input array " + arr);
