@@ -393,20 +393,20 @@ step 7: end
 
 
 
-function largestElement(arr) {
-    let largestNum = arr[0];
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > largestNum) {
-            largestNum = arr[i];
-        }
-    }
-    return largestNum;
-}
+// function largestElement(arr) {
+//     let largestNum = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > largestNum) {
+//             largestNum = arr[i];
+//         }
+//     }
+//     return largestNum;
+// }
 
-let num1 = [10, 15, 18];
-let result = largestElement(num1);
+// let num1 = [10, 15, 18];
+// let result = largestElement(num1);
 
-console.log("The largest element in the array is:" + result); 
+// console.log("The largest element in the array is:" + result); 
 
 
   //2. input array of size 4 find smallest no.[12, 223, 85, 99];
@@ -436,16 +436,178 @@ check the conditions if the current item is smallest number then we will update 
 Step 5: At the end we will have the smallest numbers of the array so return these values.
 */
 
-  function smallestElement(arr) {
-    let smallestNum = arr[0];
-    for (let i = 1; i < arr.length; i++) {
-        if(arr[i] < smallestNum) {
-            smallestNum = arr[i];
-        }
-        return smallestNum;
-    }
-  }
-  let num2 = [20, 45, 10, 56];
-  let res = smallestElement(num2);
+//   function smallestElement(arr) {
+//     let smallestNum = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         if(arr[i] < smallestNum) {
+//             smallestNum = arr[i];
+//         }
+//         return smallestNum;
+//     }
+//   }
+//   let num2 = [20, 45, 10, 56];
+//   let res = smallestElement(num2);
 
-  console.log("The smallest element in the array is:" + res );
+//   console.log("The smallest element in the array is:" + res );
+
+
+
+//  for loop if you want to run the same code over and over again, each time with a different value.
+    
+/**
+ * @author: Sonali
+ * @description: function to test array of size 3 find largest no. in an input array. This function will accept one argument as an Array 
+ * and will return updated input array.
+ * @param {Array} arr
+ * @returns updated input array arr
+ */
+  /*
+  Algorithm
+Step 1: As our task is to do a coloumn array convert into an row array with seperated comma .
+ So we will  in this function we will pass a parameter array.
+
+Step 2: So we have already created the function function name is repeat and input array is arr.
+ 
+
+Step 3: after the above condition sets a variable before the loop starts (let i = 0).
+
+step 4 : defines the condition for the loop to run arr length.
+
+step 5: increases a value (i++) each time the code block in the loop has been executed.
+
+step 6: print the array.
+
+step 7: return the input array.
+
+step 8: took a variale put an array into it.
+
+step 9: call the function
+
+
+// */
+// function repeat(arr) {
+    
+//     for (let i = 0; i < arr.length; i++) {
+//         console.log("The for loop is     " + arr[i]);
+
+//         }
+           
+      
+//       return arr;
+// }
+
+// let arr1 = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+// let arr2 = ["sweety", "sonu", "sargun", "guddan",];
+//    repeat(arr1);
+//    repeat(arr2);
+
+  
+  
+// //   2. loop for
+//    function lFor(num) {
+    
+//     for (let i = 0; i < 5; i++) {
+//         console.log("The for loop is     " +[i]);
+
+//         }
+           
+      
+//       return lFor;
+// }
+// let num = ""
+// lFor(num);
+
+
+
+
+//  * @author: Sonali
+//  * @description: function to test array shift on an input array. This function will accept one arguement as an Array
+//  * and will return updated input array
+//  * 
+//  * @param {Array} arr 
+//  * @returns updated input array arr
+//  */
+// function arrshift(arr) {
+//     // print which function calling, so that in console, you may identify this:
+//     console.log("arrshift function calling....");
+
+//     // print arguments, in their format as input argument is an Array. We may use comma to just print the variable value.
+//     console.log("input array", arr);
+    
+//     // use Array shift method / liabrary function, to remove element from the 0th index of input Array
+//     arr.shift(arr);
+
+//     // print the updated array
+//     console.log("Updated Array: ", arr);
+    
+//     // return updated Array from this function
+//     return arr;
+// }
+
+// // declare a variable arr1 of type array with String values as per the below
+// let arr8 = ["salad", "fruit", "juice", "nuts"];
+
+// // arrshift function call with arguments of arr1, save this function return value into a variable
+// let updatedArr = arrshift(arr8);
+
+// console.log("Updated Array after using arrshift function: ", updatedArr);
+// /**
+//  * @author: Sonali
+//  * @description: function to calculate sum of array numbers in an input array. This function will accept one arguement as an Array
+//  * and will return updated input array
+//  * 
+//  * @param {Array} arr 
+//  * @returns updated input array arr
+//  */
+// //1. write a function to calculate sum of array numbers in an array
+
+// function sumarr(arr) {
+//     // print which function calling, so that in console, you may identify this:
+//     console.log("sumarr function calling....");
+//     // declare a variable sum with the value as per the below
+// let sum = 0;
+// // for loop declare a variable i the value as per the below comparing the index value 0 to array length
+
+// for (let i = 0; i < arr.length; i++) {
+
+//   sum += arr[i];
+// }
+// // print the updated sum
+// console.log(sum);
+// //// return updated Array from this function
+// return arr;
+
+// }
+
+// // declare a variable arr of type array as per the below
+// let arr = [23, 34, 77, 99, 324];
+// //
+// // arr function call with arguments of arr, save this function return value into a variable
+// sumarr(arr);
+
+// // 2. search a number in an array.
+
+// function findaNum(arr) {
+//     let find = 12;
+    
+
+//     for(let i = 0; i < arr.length; i++) {
+//         if (arr[i] == find) {
+//              find = true;
+//         }
+//     }
+    
+// if (find) {
+//     console.log("The element was find in the array.");
+// } else {
+//     console.log("The element was not found in the array.");
+   
+// }
+// console.log(find);
+// return arr;
+// }
+// let arr1 = [55, 14, 74, 23, 12, 78, 25];
+
+// findaNum(arr1); 
+
+
