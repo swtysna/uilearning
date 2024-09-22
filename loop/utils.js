@@ -116,7 +116,7 @@ function printOddNums() {
 
 }
 //calling the function...
-// printOddNums();
+ printOddNums();
 
 /**
  * write a function to return all even numbers between two numbers.
@@ -191,4 +191,32 @@ function printEvenArr(arr1, arr2) {
  }
 }
 // calling the function..
-printDivNums();
+// printDivNums();
+
+// 2. Write a function to print all odd numbers between 1 to 100. Ex: 1, 3, 5, 7, ....... , 97, 99
+
+
+function printOddNums() {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 2 !== 0) {
+            console.log("Odd number is " + i);
+        }
+    }
+}
+//   printOddNums();
+
+
+// 1. write a function to print odd no. between two numbers.
+// start range = num1; end range = num2;
+function printOddNums(num1,num2){
+    console.log("================ input range ", num1,num2);
+    for(let i = num1; i <= num2; i++){
+        if(i % 2 !== 0 ){
+            console.log("Odd number is " + i);
+        }
+
+    }
+
+}
+    //calling the function...
+    printOddNums(1000,1150);
